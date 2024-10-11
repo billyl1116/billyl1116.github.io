@@ -1,3 +1,10 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
 html, body {
     height: 100%;
 }
@@ -6,6 +13,13 @@ body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
+}
+
+.background1 {
+background: linear-gradient(rgba(0,0,0,0.5),#c468ee), url(img/background1.png);
+background-size: cover ;
+background-position: center;
+height: 70vh;
 }
 
 p {
@@ -17,7 +31,7 @@ a {
 }
 
 #logo, .project-img {
-    max-height: 300px;
+    max-height: 150px;
 }
 
 #fork img{
